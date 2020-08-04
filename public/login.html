@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>login</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <div class="contenedor-form">
+            <div class="toggle">
+                <span><a href="createAcount.html">Crea Tu Cuenta</a></span>
+            </div>
+            <div class="formulario">
+                <h2>Iniciar Sesión</h2>
+                <form action="#">
+                    <input type="text" placeholder="usuario" required id="usuario">
+                    <input type="password" placeholder="contraseña" required id="contraseña">
+                    <input type="submit" value="Iniciar Sesión" onclick="entrar()">
+                </form>
+            </div>
+            <div class="reset-password">
+                <a href="#">Olvide mi contraseña</a>
+            </div>
+        </div>
+        <script src="js/admin.js"></script>
+    </body>
+</html>
